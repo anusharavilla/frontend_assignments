@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 14px;
+}
+
+
+/** HEADER **/
+body {
+	background-color: #75CFBB;
+
+}
+
+#navbar-outer {
+  border-radius: 0;
+  border: 0;
+  background-color: #073D38;
+  margin: 0;
+}
+
+#navbar-outer .navbar-brand {
+  font-size: 2.25em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  color: #B5E9E6;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+#navbar-outer .navbar-toggler {
+	border-color: #B5E9E6;
+}
+
+#navbar-outer .navbar-toggler .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(181, 233, 230)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	background-image-color: #B5E9E6;
+}
+
+#navbar-outer .navbar-toggler:hover {
+	background-color: #473434;
+}
+
+.navbar-collapse {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: #B5E9E6;
+	background-color: #1E8467;
+}
+
+.hr-drop-down {
+    margin:0;
+    background-color:#B5E9E6;
+}
+
+#our-menu {
+	margin-top: 25px;
+	margin-bottom: 40px;
+	font-size: 2em;
+	font-weight: bold;
+	color: #DFFAF9;
+	text-shadow: -2px 0 #3d4443, 0 2px #3d4443, 2px 0 #3d4443, 0 -2px #3d4443;
+}
+
+
+.para-section {
+	min-height: 700px;
+	background-color:  #c8fae0;
+  box-sizing: border-box;
+  margin-left: 3px;  
+  padding: 10px 10px 0 10px;
+}
+
+.row {
+  margin-right: 20px;
+  margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h3{
+	margin-top: 25px;
+	margin-bottom:25px;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #3d4443;
+}
